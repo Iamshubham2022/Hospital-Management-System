@@ -223,7 +223,6 @@ if(i==3)
         goto b;
 }
 
-//Exiting Through the system with a Thank You note........................option 5
 if(i==5)
 {
 system("cls");
@@ -261,7 +260,7 @@ int login(){
    cout<<"\t\t\t\t\t\t\t\t------------------------------\n\n";	
    cout << "\t\t\t\t\t\t\t\tEnter Password: ";
    ch = _getch();
-   while(ch != 13){//character 13 is enter
+   while(ch != 13){
       pass.push_back(ch);
       cout << '*';
       ch = _getch();
